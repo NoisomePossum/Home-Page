@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'commemedium';
+    src: url('Comme-Medium-webfont.eot');
+    src: url('Comme-Medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Comme-Medium-webfont.woff2') format('woff2'),
+         url('Comme-Medium-webfont.woff') format('woff'),
+         url('Comme-Medium-webfont.ttf') format('truetype'),
+         url('Comme-Medium-webfont.svg#commemedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+

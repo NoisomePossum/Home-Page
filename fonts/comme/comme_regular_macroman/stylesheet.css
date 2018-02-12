@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'commeregular';
+    src: url('Comme-Regular (1)-webfont.eot');
+    src: url('Comme-Regular (1)-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Comme-Regular (1)-webfont.woff2') format('woff2'),
+         url('Comme-Regular (1)-webfont.woff') format('woff'),
+         url('Comme-Regular (1)-webfont.ttf') format('truetype'),
+         url('Comme-Regular (1)-webfont.svg#commeregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+

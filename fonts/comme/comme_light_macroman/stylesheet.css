@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'commelight';
+    src: url('Comme-Light-webfont.eot');
+    src: url('Comme-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Comme-Light-webfont.woff2') format('woff2'),
+         url('Comme-Light-webfont.woff') format('woff'),
+         url('Comme-Light-webfont.ttf') format('truetype'),
+         url('Comme-Light-webfont.svg#commelight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+

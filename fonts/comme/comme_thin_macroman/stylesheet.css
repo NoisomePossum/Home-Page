@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'commethin';
+    src: url('Comme-Thin-webfont.eot');
+    src: url('Comme-Thin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Comme-Thin-webfont.woff2') format('woff2'),
+         url('Comme-Thin-webfont.woff') format('woff'),
+         url('Comme-Thin-webfont.ttf') format('truetype'),
+         url('Comme-Thin-webfont.svg#commethin') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+

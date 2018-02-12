@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'commesemibold';
+    src: url('Comme-SemiBold-webfont.eot');
+    src: url('Comme-SemiBold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Comme-SemiBold-webfont.woff2') format('woff2'),
+         url('Comme-SemiBold-webfont.woff') format('woff'),
+         url('Comme-SemiBold-webfont.ttf') format('truetype'),
+         url('Comme-SemiBold-webfont.svg#commesemibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+

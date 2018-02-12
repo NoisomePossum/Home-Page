@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'philosopherbold';
+    src: url('Philosopher-Bold-webfont.eot');
+    src: url('Philosopher-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Philosopher-Bold-webfont.woff2') format('woff2'),
+         url('Philosopher-Bold-webfont.woff') format('woff'),
+         url('Philosopher-Bold-webfont.ttf') format('truetype'),
+         url('Philosopher-Bold-webfont.svg#philosopherbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+

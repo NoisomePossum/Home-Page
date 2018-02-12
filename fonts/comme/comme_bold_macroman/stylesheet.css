@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'commebold';
+    src: url('Comme-Bold-webfont.eot');
+    src: url('Comme-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Comme-Bold-webfont.woff2') format('woff2'),
+         url('Comme-Bold-webfont.woff') format('woff'),
+         url('Comme-Bold-webfont.ttf') format('truetype'),
+         url('Comme-Bold-webfont.svg#commebold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+

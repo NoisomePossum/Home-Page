@@ -1,0 +1,151 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+/* styles for parallax effect */
+body, html {
+    margin:0;
+    padding:0;
+    height: 100%;
+    background: #042029;
+    color: white;
+    scroll-behavior: smooth;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url("../images/background.png");
+
+    /* Full height */
+    height: 100vh;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
+
+/* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
+@media only screen and (max-device-width: 1366px) {
+    .parallax {
+        background-attachment: scroll;
+    }
+} 
+
+
+
+
+/* flex containers and children */
+.container {
+    width: 100%;
+    display: flex;
+}
+
+.container-small {
+    display: flex;
+}
+.small-center {
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-center {
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-upright {
+    position: absolute;
+    top:1rem;
+    right:1rem;
+    align-self: right;
+}
+
+.flex-bottom {
+    position:absolute;
+    bottom:0;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+/* .flex-left { */
+/*     align-items: center; */
+/* } */
+.twoColumn {
+    justify-content: space-evenly;
+}
+.twoColumn-item {
+    width: 25%;
+}
+
+.flex-grid {
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.grid-item {
+    width: 30%;
+    color: white;
+    text-align: center;
+}
+
+
+
+/* other custom styles */
+@font-face {
+    font-family: "philosopher";
+    src: url("../fonts/philosopher/philosopher_regular_macroman/philosopher-regular-webfont.woff");
+}
+@font-face {
+    font-family: "comme";
+    src: url("../fonts/comme/comme_regular_macroman/comme-regular-webfont.woff");
+}
+img {
+    max-width: 100%;
+}
+.plainLink {
+    text-decoration: none;
+    color: white;
+}
+h2 {
+    font-family: "comme";
+    font-size: 2rem;
+}
+
+
+
+/* section divisions */
+#doorMat {
+}
+#doorMat h1 {
+    font-family: "philosopher";
+    font-size: 4rem;
+}
+.job_title {
+    font-family: "comme";
+    font-size: 3rem;
+}
+
+#persInfo {
+    height: 100vh;
+    background: black;
+}
+
+#projects {
+    background: #34495E;
+    text-align: center;
+}
+
+#skills {
+    text-align: center;
+}
+
+#contactMe {
+    text-align: center;
+}
