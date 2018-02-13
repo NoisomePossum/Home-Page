@@ -5,6 +5,7 @@
 
 /* styles for parallax effect */
 body, html {
+    height: 100vh;
     margin:0;
     padding:0;
     height: 100%;
@@ -73,9 +74,10 @@ body, html {
     flex-direction: column;
 }
 
-/* .flex-left { */
-/*     align-items: center; */
-/* } */
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
 .twoColumn {
     justify-content: space-evenly;
 }
@@ -106,6 +108,10 @@ body, html {
     font-family: "comme";
     src: url("../fonts/comme/comme_regular_macroman/comme-regular-webfont.woff");
 }
+@font-face {
+    font-family: "liberation";
+    src: url("../fonts/liberation/liberationsans_regular_macroman/LiberationSans-Regular-webfont.woff");
+}
 img {
     max-width: 100%;
 }
@@ -114,8 +120,14 @@ img {
     color: white;
 }
 h2 {
+    width: 100%;
     font-family: "comme";
     font-size: 2rem;
+    padding-top: 3rem;
+    margin-bottom: 2rem;
+}
+.pulldownDiv {
+    display: none;
 }
 
 
@@ -126,6 +138,7 @@ h2 {
 #doorMat h1 {
     font-family: "philosopher";
     font-size: 4rem;
+    margin-bottom: 2rem;
 }
 .job_title {
     font-family: "comme";
@@ -133,8 +146,13 @@ h2 {
 }
 
 #persInfo {
-    height: 100vh;
+    height: 100%;
     background: black;
+    font-family: "liberation";
+    font-size: 1.5rem;
+}
+#persInfo p {
+    margin-bottom: 1rem;
 }
 
 #projects {
@@ -143,9 +161,39 @@ h2 {
 }
 
 #skills {
+    height: 100%;
     text-align: center;
+    font-family: "liberation";
+    font-size: 2rem;
+}
+.pulldownParent {
+    margin-bottom: 3rem;
+}
+.pulldownParent h3:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+.pulldownDiv {
+    background: #363636;
+    border-radius: 25px;
+    text-align: left;
+    padding-left: 1rem;
+}
+.pulldownDiv li {
+    list-style-position: inside;
+    padding-left: 2rem;
 }
 
 #contactMe {
+    height: 100%;
     text-align: center;
+    font-family: "liberation";
+    font-size: 2rem;
+}
+#contactMe span {
+    margin-bottom: 4rem;
+}
+#socialMedia {
+    width: 30%;
+    justify-content: space-between;
 }

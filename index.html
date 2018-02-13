@@ -15,7 +15,7 @@
 
     <div id="doorMat" class="parallax">
         <div class="container flex-center flex-column">
-            <img class="flex-upright" src="./images/French.png">
+            <a href="http://www.michaelshaughnessy.net/fr/"><img class="flex-upright" src="./images/French.png"></a>
             <img src="./images/logo.png">
             <h1>Michael Shaughnessy</h1>
             <span class="job_title">Fullstack Web Developer</span>
@@ -31,16 +31,18 @@
             <div class="twoColumn-item">
                 <img src="./images/profile_pic.jpg">
             </div>
-            <div class="twoColumn-item"> Ayant récémment complété un diplôme de Développement Web (Front), je débute ma carrière en tant que développeur freelance. J'ai hâte de travailler avec pour réaliser vos projets ! Au sein de mes cours, j'ai construis des sites Webs avec Wordpress, Bootstrap et Foundation et j'ai travaillé avec des APIs (Google Places, Google Maps) pour créer une application de recherche pour des restaurants. J'ai également aquis des compétences en création de tests en utilisant Jasmine et Intern.
-
-    Grâce à un Master 2 en rédaction technique, j'ai également de l'expérience en rédaction et en traduction pour le soft. Je peux vous aider à développer le documentation de vos produits ou à traduire vos interfaces du français vers l'anglais.
+            <div class="twoColumn-item">
+                <h2>About Me</h2>
+                <p> I am a web developer specialized in the creation of web applications. I have a passion for discovering new technologies and techniques. As a result, I am a versatile programmer with knowledge of a diverse repertoire of tools and languages.  </p>
+                <p> I can also help you design your personal or business website. I have created websites using a variety of frameworks and content management systems including Bootstrap and Wordpress.  </p>
+                <p> I am based in Paris and I am able to work on location or from my home. I love collaborative projects and I can easily adapt my workflow to fit your team's methodology.  </p>
             </div>
         </div>
     </div>
 
     <div id="projects">
-        <h2>Projects</h2>
-        <div class="container flex-grid">
+        <div class="container flex-grid flex-wrap">
+            <h2>Projects</h2>
             <div class="grid-item"><a href="http://www.michaelshaughnessy.net/projects/board_game/"><img src="./images/board-game.png"></a></div>
             <div class="grid-item"><a href="http://chaletsandcaviar.michaelshaughnessy.net/"><img src="./images/chalets_caviar.jpg"></a></div>
             <div class="grid-item"><a href="http://www.michaelshaughnessy.net/projects/quote-generator/"><img src="./images/quote-generator.png"></a></div>
@@ -50,16 +52,116 @@
         </div>
     </div>
 
-    <div id="skills">
-        <h2>Skills</h2>
+    <div id="skills" class="parallax">
+        <div class="container flex-center twoColumn flex-wrap">
+            <h2>Skills</h2>
+            <div class="twoColumn-item">
+
+                <div class="pulldownParent" onclick="toggleDisplay(this)">
+                    <h3>Application development</h3>
+                    <div class="pulldownDiv">I can create applications or video games and deploy them in a variety of formats (iOS, Android, WebGL)
+                        <ul>
+                            <li>Javascript</li> 
+                            <li>C#</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="pulldownParent" onclick="toggleDisplay(this)">
+                    <h3>Application Testing</h3>
+                    <div class="pulldownDiv">I have experience running user tests and providing feedback on bugs and user experience.</div>
+                </div>
+
+                <div class="pulldownParent" onclick="toggleDisplay(this)">
+                    <h3>API Integration</h3>
+                    <div class="pulldownDiv">I can integrate APIs into your web apps or build you an app from scratch using the API of your choice.</div>
+                </div>
+
+                <div class="pulldownParent" onclick="toggleDisplay(this)">
+                    <h3>Writing and Translation</h3>
+                    <div class="pulldownDiv">I have a good sense for summarizing complex information and presenting it to non-experts. I can also translate your documents from French to English.</div>
+                </div>
+
+                <!-- <div class="pulldownParent" onclick="toggleDisplay(this)"> -->
+                <!--     <h3>Linux / Vim / Git</h3> -->
+                <!--     <div class="pulldownDiv">I am comfortable working in a Linux command-line environment.</div> -->
+                <!-- </div> -->
+
+            </div>
+            <div class="twoColumn-item">
+
+                <div class="pulldownParent" onclick="toggleDisplay(this)">
+                    <h3>Website Creation</h3>
+                    <div class="pulldownDiv">I can create websites using a variety of frameworks and languages.
+                        <ul>
+                            <li>Wordpress</li>
+                            <li>Bootstrap</li>
+                            <li>Foundation</li>
+                            <li>Python</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="pulldownParent" onclick="toggleDisplay(this)">
+                    <h3>Database Management</h3>
+                    <div class="pulldownDiv">I can create and manage databases and integrate them into web-based or offline applications.
+                        <ul>
+                            <li>MySQL</li>
+                            <li>NoSQL</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="pulldownParent" onclick="toggleDisplay(this)">
+                    <h3>Test-driven Development</h3>
+                    <div class="pulldownDiv">I can use test-driven development to ensure stability and performance in your applications.
+                        <ul>
+                            <li>Jasmine</li>
+                            <li>Intern</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="pulldownParent" onclick="toggleDisplay(this)">
+                    <h3>Version Tracking</h3>
+                    <div class="pulldownDiv">I can use versioning software to collaborate easily with coworkers.
+                        <ul>
+                            <li>Git</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
     </div>
 
     <div id="contactMe">
-        <h2>Contact</h2>
+        <div class="container flex-center flex-column">
+            <h2>Get in touch</h2>
+            <span>To ask me questions or contact me about working with you on your projects, please contact me by visiting one of the links below.</span>
+            <div id="socialMedia" class="container-small small-center">
+                <a href="https://twitter.com/NoisomePossum">
+                    <img src="./images/twitter.png">
+                </a>
+                <a href="https://www.linkedin.com/in/amichaelshaughnessy/">
+                    <img src="./images/linkedin.png">
+                </a>
+                <a href="https://github.com/NoisomePossum">
+                    <img src="./images/github.png">
+                </a>
+                <a href="http://www.viadeo.com/p/002jgj467ls5488">
+                    <img src="./images/viadeo.png">
+                </a>
+                <a href="https://www.malt.fr/profile/michaelshaughnessy">
+                    <img src="./images/malt.png">
+                </a>
+            </div>
+        </div>
     </div>
 
-    <div class="parallax" class="parallax"></div>
+    <!-- <div class="parallax" class="parallax"></div> -->
 
+    <script src="./js/main.js"></script>
     
 </body>
 </html>
