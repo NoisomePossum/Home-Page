@@ -1,160 +1,244 @@
 <!doctype html>
 <html class="no-js" lang="en">
 
-<head>
-    <meta charset="utf-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <link rel="canonical" href="http://www.michaelshaughnessy.net">
-    <link rel="icon" type="image/png" href="./images/favicon.png">
-    <title>CV - Michael Shaughnessy</title>
-    <link rel="stylesheet" type="text/css" href="./css/main.css">
-</head>
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+        <link rel="canonical" href="http://www.michaelshaughnessy.net">
+        <link rel="icon" type="image/png" href="./images/favicon.png">
 
-<body>
+        <title>CV - Michael Shaughnessy</title>
 
+        <script defer src="./vendor/fontawesome/svg-with-js/js/fontawesome-all.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="./vendor/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="./css/main.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    </head>
 
-    <div id="doorMat" class="parallax">
-        <div class="container flex-center flex-column">
-            <a href="http://www.michaelshaughnessy.net/fr/"><img class="flex-upright" src="./images/French.png"></a>
-            <img src="./images/logo.png">
-            <h1>Michael Shaughnessy</h1>
-            <span class="job_title">Fullstack Web Developer</span>
-            <span class="job_title">French / English Bilingual</span>
-            <div class="container-small flex-bottom flex-column">
-                <a href="#persInfo" class="plainLink"><img src="./images/down-scroll.png"></a>
-            </div>
-        </div>
-    </div>
+    <body id="page-top">
 
-    <div id="persInfo">
-        <div class="container flex-center twoColumn">
-            <div class="twoColumn-item">
-                <img src="./images/profile_pic.jpg">
-            </div>
-            <div class="twoColumn-item">
-                <h2>About Me</h2>
-                <p> I am a web developer specialized in the creation of web applications. I have a passion for discovering new technologies and techniques. As a result, I am a versatile programmer with knowledge of a diverse repertoire of tools and languages.  </p>
-                <p> I can also help you design your personal or business website. I will use the framework or CMS of your choice in order to create a look that is professional and unique. I can also adapt page styles to fit your corporate style guide to ensure a coherent presentation across your site.</p>
-                <p> I am based in Paris and I am able to work on location or from my home. I love collaborative projects and I can easily adapt my workflow to fit your team's methodology.  </p>
-            </div>
-        </div>
-    </div>
+        <!-- Navigation -->
+        <a class="menu-toggle rounded" href="#">
+          <i class="fa fa-bars"></i>
+        </a>
+        <nav id="sidebar-wrapper">
+          <ul class="sidebar-nav">
+            <li class="sidebar-brand">
+              <a class="js-scroll-trigger" href="#page-top"></a>
+            </li>
+            <li class="sidebar-nav-item">
+              <a class="js-scroll-trigger" href="#page-top">Home</a>
+            </li>
+            <li class="sidebar-nav-item">
+              <a class="js-scroll-trigger" href="#persInfo">About me</a>
+            </li>
+            <li class="sidebar-nav-item">
+              <a class="js-scroll-trigger" href="#projects">Projects</a>
+            </li>
+            <li class="sidebar-nav-item">
+              <a class="js-scroll-trigger" href="#skills">Skills</a>
+            </li>
+            <li class="sidebar-nav-item">
+              <a class="js-scroll-trigger" href="#contactMe">Contact me</a>
+            </li>
+          </ul>
+        </nav>
 
-    <div id="projects">
-        <div class="container flex-grid flex-wrap">
-            <h2>Projects</h2>
-            <div class="grid-item"><a href="http://www.michaelshaughnessy.net/projects/board_game/"><img src="./images/board-game.png"></a></div>
-            <div class="grid-item"><a href="http://chaletsandcaviar.michaelshaughnessy.net/"><img src="./images/chalets_caviar.jpg"></a></div>
-            <div class="grid-item"><a href="http://www.michaelshaughnessy.net/projects/quote-generator/"><img src="./images/quote-generator.png"></a></div>
-            <div class="grid-item"><a href="http://www.michaelshaughnessy.net/projects/film-festival/"><img src="./images/film-festival.png"></a></div>
-            <div class="grid-item"><a href=""><img src=""></a></div>
-            <div class="grid-item"><a href=""><img src=""></a></div>
-        </div>
-    </div>
-
-    <div id="skills" class="parallax">
-        <div class="container flex-center twoColumn flex-wrap">
-            <h2>Skills</h2>
-            <div class="twoColumn-item">
-
-                <div class="pulldownParent" onclick="toggleDisplay(this)">
-                    <h3>Application development</h3>
-                    <div class="pulldownDiv">I can create applications or video games and deploy them in a variety of formats (iOS, Android, WebGL).
-                        <ul>
-                            <li>Javascript</li> 
-                            <li>C#</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="pulldownParent" onclick="toggleDisplay(this)">
-                    <h3>Application Testing</h3>
-                    <div class="pulldownDiv">I have experience running user tests and providing feedback on bugs and user experience.</div>
-                </div>
-
-                <div class="pulldownParent" onclick="toggleDisplay(this)">
-                    <h3>API Integration</h3>
-                    <div class="pulldownDiv">I can integrate APIs into your web apps or build you an app from scratch using the API of your choice.</div>
-                </div>
-
-                <div class="pulldownParent" onclick="toggleDisplay(this)">
-                    <h3>Writing and Translation</h3>
-                    <div class="pulldownDiv">I have a good sense for summarizing complex information and presenting it to non-experts. I can also translate your documents from French to English.</div>
-                </div>
-
-            </div>
-            <div class="twoColumn-item">
-
-                <div class="pulldownParent" onclick="toggleDisplay(this)">
-                    <h3>Website Creation</h3>
-                    <div class="pulldownDiv">I can create websites using a variety of frameworks and languages.
-                        <ul>
-                            <li>Wordpress</li>
-                            <li>Bootstrap</li>
-                            <li>Foundation</li>
-                            <li>Python</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="pulldownParent" onclick="toggleDisplay(this)">
-                    <h3>Database Management</h3>
-                    <div class="pulldownDiv">I can create and manage databases and integrate them into web-based or offline applications.
-                        <ul>
-                            <li>MySQL</li>
-                            <li>NoSQL</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="pulldownParent" onclick="toggleDisplay(this)">
-                    <h3>Test-driven Development</h3>
-                    <div class="pulldownDiv">I can use test-driven development to ensure stability and performance in your applications.
-                        <ul>
-                            <li>Jasmine</li>
-                            <li>Intern</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="pulldownParent" onclick="toggleDisplay(this)">
-                    <h3>Version Tracking</h3>
-                    <div class="pulldownDiv">I can use versioning software to collaborate easily with others.
-                        <ul>
-                            <li>Git</li>
-                        </ul>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </div>
-
-    <div id="contactMe">
-        <div class="container flex-center flex-column">
-            <h2>Get in touch</h2>
-            <span>To ask me questions or contact me about working with you on your projects, please contact me by visiting one of the links below.</span>
-            <div id="socialMedia" class="container-small small-center">
-                <a href="https://twitter.com/NoisomePossum">
-                    <img src="./images/twitter.png">
-                </a>
-                <a href="https://www.linkedin.com/in/amichaelshaughnessy/">
-                    <img src="./images/linkedin.png">
-                </a>
-                <a href="https://github.com/NoisomePossum">
-                    <img src="./images/github.png">
-                </a>
-                <a href="http://www.viadeo.com/p/002jgj467ls5488">
-                    <img src="./images/viadeo.png">
-                </a>
-                <a href="https://www.malt.fr/profile/michaelshaughnessy">
-                    <img src="./images/malt.png">
+        <!-- Header -->
+        <header id="welcomeMat" class="d-flex parallax">
+            <div class="container text-center my-auto">
+                <a href="http://www.michaelshaughnessy.net/fr/"><img class="flag-position" src="./images/French.png"></a>
+                <img src="./images/logo.png">
+                <h1>Michael Shaughnessy</h1>
+                <div class="job_title">Fullstack Web Developer</div>
+                <div class="job_title">French / English Bilingual</div>
+                <a href="#persInfo" class="plainLink">
+                    <img src="./images/down-scroll.png">
                 </a>
             </div>
-        </div>
-    </div>
+            <!-- <div class="overlay"></div> -->
+        </header>
 
-    <script src="./js/main.js"></script>
-    
-</body>
+        <!-- About -->
+        <section id="persInfo" class="d-flex content-section">
+            <div class="container text-center my-auto">
+                <div class="row">
+                    <div class="col-lg-6 align-self-center">
+                        <img src="./images/profile_pic.jpg">
+                    </div>
+                    <div class="col-lg-6 align-self-center">
+                        <h2>About Me</h2>
+                        <p> I am a web developer specialized in the creation of web applications. I have a passion for discovering new technologies and techniques. As a result, I am a versatile programmer with knowledge of a diverse repertoire of tools and languages.  </p>
+                        <p> I can also help you design your personal or business website. I will use the framework or CMS of your choice in order to create a look that is professional and unique. I can also adapt page styles to fit your corporate style guide to ensure a coherent presentation across your site.</p>
+                        <p> I am based in Paris and I am able to work on location or from my home. I love collaborative projects and I can easily adapt my workflow to fit your team's methodology.  </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Portfolio -->
+        <section class="content-section" id="projects">
+            <div class="container">
+                <div class="content-section-heading text-center">
+                    <h2 class="mb-5">Recent Projects</h2>
+                </div>
+                <div class="row no-gutters">
+                    <div class="col-lg-6">
+                        <a class="portfolio-item" href="http://www.michaelshaughnessy.net/projects/board_game/">
+                            <span class="caption">
+                                <span class="caption-content">
+                                    <h2>Javascript Board Game</h2>
+                                    <p class="mb-0">A turn-based game built with javascript and Bootstrap. Move the player with WASD or arrow keys. End your turn with "Enter".</p>
+                                </span>
+                            </span>
+                            <img class="img-fluid" src="./images/board-game.png" alt=""></a>
+                    </div>
+                    <div class="col-lg-6">
+                        <a class="portfolio-item" href="http://chaletsandcaviar.michaelshaughnessy.net/">
+                            <span class="caption">
+                                <span class="caption-content">
+                                    <h2>Chalets and Caviar</h2>
+                                    <p class="mb-0">A real estate website for a Colorado-based company that rents and sells chalets in the mountains.</p>
+                                </span>
+                            </span>
+                            <img class="img-fluid" src="./images/chalets_caviar.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="col-lg-6">
+                        <a class="portfolio-item" href="http://www.michaelshaughnessy.net/projects/quote-generator/">
+                            <span class="caption">
+                                <span class="caption-content">
+                                    <h2>Quote Generator</h2>
+                                    <p class="mb-0">A javascript application that generates random quotes in two flavors: "Enlightened" and "Trump".</p>
+                                </span>
+                            </span>
+                            <img class="img-fluid" src="./images/quote-generator.png" alt="">
+                        </a>
+                    </div>
+                    <div class="col-lg-6">
+                        <a class="portfolio-item" href="http://www.michaelshaughnessy.net/projects/film-festival/">
+                            <span class="caption">
+                                <span class="caption-content">
+                                    <h2>Film Festival Website</h2>
+                                    <p class="mb-0">A promotional website for a film festival in the heart of Brooklynn New York. Built with Foundation.</p>
+                                </span>
+                            </span>
+                            <img class="img-fluid" src="./images/film-festival.png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Call to Action -->
+        <section id="skills" class="d-flex content-section parallax">
+            <div class="container text-center my-auto">
+
+                <h2 class="mb-4">Skills</h2>
+
+                <div class="row">
+
+                    <div class="col-lg-6">
+                        <div class="pulldownParent" onclick="toggleDisplay(this)">
+                            <h3>Application development</h3>
+                            <div class="pulldownDiv">I can create applications or video games and deploy them in a variety of formats (iOS, Android, WebGL).
+                                <ul>
+                                    <li>Javascript</li> 
+                                    <li>C#</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="pulldownParent" onclick="toggleDisplay(this)">
+                            <h3>Application Testing</h3>
+                            <div class="pulldownDiv">I have experience running user tests and providing feedback on bugs and user experience.</div>
+                        </div>
+
+                        <div class="pulldownParent" onclick="toggleDisplay(this)">
+                            <h3>API Integration</h3>
+                            <div class="pulldownDiv">I can integrate APIs into your web apps or build you an app from scratch using the API of your choice.</div>
+                        </div>
+
+                        <div class="pulldownParent" onclick="toggleDisplay(this)">
+                            <h3>Writing and Translation</h3>
+                            <div class="pulldownDiv">I have a good sense for summarizing complex information and presenting it to non-experts. I can also translate your documents from French to English.</div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <div class="pulldownParent" onclick="toggleDisplay(this)">
+                            <h3>Website Creation</h3>
+                            <div class="pulldownDiv">I can create websites using a variety of frameworks and languages.
+                                <ul>
+                                    <li>Wordpress</li>
+                                    <li>Bootstrap</li>
+                                    <li>Foundation</li>
+                                    <li>Python</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="pulldownParent" onclick="toggleDisplay(this)">
+                            <h3>Database Management</h3>
+                            <div class="pulldownDiv">I can create and manage databases and integrate them into web-based or offline applications.
+                                <ul>
+                                    <li>MySQL</li>
+                                    <li>NoSQL</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="pulldownParent" onclick="toggleDisplay(this)">
+                            <h3>Test-driven Development</h3>
+                            <div class="pulldownDiv">I can use test-driven development to ensure stability and performance in your applications.
+                                <ul>
+                                    <li>Jasmine</li>
+                                    <li>Intern</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="pulldownParent" onclick="toggleDisplay(this)">
+                            <h3>Version Tracking</h3>
+                            <div class="pulldownDiv">I can use versioning software to collaborate easily with others.
+                                <ul>
+                                    <li>Git</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contactMe" class="d-flex">
+            <div class="container text-center my-auto">
+
+                <div class="row">
+                    <h2 class="mx-auto mb-5">Get in touch</h2>
+                    <span>To ask me questions or contact me about working with you on your projects, please contact me by visiting one of the links below.</span>
+                    <div class="mx-auto align-self-center col-lg-8">
+                        <a href="https://twitter.com/NoisomePossum">
+                            <img src="./images/twitter.png">
+                        </a>
+                        <a href="https://www.linkedin.com/in/amichaelshaughnessy/">
+                            <img src="./images/linkedin.png">
+                        </a>
+                        <a href="https://github.com/NoisomePossum">
+                            <img src="./images/github.png">
+                        </a>
+                        <a href="http://www.viadeo.com/p/002jgj467ls5488">
+                            <img src="./images/viadeo.png">
+                        </a>
+                        <a href="https://www.malt.fr/profile/michaelshaughnessy">
+                            <img src="./images/malt.png">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <script src="./js/main.js"></script>
+
+    </body>
 </html>
